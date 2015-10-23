@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144321
-ModificationTime: 1445595163
+ModificationTime: 1445598628
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -102,7 +102,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 140 14 8
+WinInfo: 126 14 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -115,7 +115,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 289792 144896 96597 543744 -1048576 96597 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "dotreph"  "'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0 subtable" 
-BeginChars: 1183 1072
+BeginChars: 1183 1073
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -90078,6 +90078,42 @@ SplineSet
  214 0 l 1,10,-1
  214 1465 l 1,11,-1
  352 1465 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: Eth
+Encoding: 208 208 1072
+Width: 1479
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+219 1466 m 1,0,-1
+ 685 1466 l 2,1,2
+ 974 1466 974 1466 1160 1276 c 0,3,4
+ 1356 1076 1356 1076 1355 745 c 0,5,6
+ 1355 446 1355 446 1233 264 c 0,7,8
+ 1057 0 1057 0 685 0 c 2,9,-1
+ 219 0 l 1,10,-1
+ 219 684 l 1,11,-1
+ 65 684 l 1,12,-1
+ 65 822 l 1,13,-1
+ 219 822 l 1,14,-1
+ 219 1466 l 1,0,-1
+357 138 m 1,15,-1
+ 685 138 l 2,16,17
+ 879 138 879 138 1020 244 c 0,18,19
+ 1140 334 1140 334 1190 517 c 0,20,21
+ 1216 613 1216 613 1216.5 748 c 128,-1,22
+ 1217 883 1217 883 1175.5 991 c 128,-1,23
+ 1134 1099 1134 1099 1062 1174 c 0,24,25
+ 914 1328 914 1328 685 1328 c 2,26,-1
+ 357 1328 l 1,27,-1
+ 357 822 l 1,28,-1
+ 716 822 l 1,29,-1
+ 716 684 l 1,30,-1
+ 357 684 l 1,31,-1
+ 357 138 l 1,15,-1
 EndSplineSet
 EndChar
 EndChars
