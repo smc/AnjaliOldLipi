@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144321
-ModificationTime: 1445586849
+ModificationTime: 1445587039
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -107,7 +107,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 289792 144896 96597 543744 -1048576 96597 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "dotreph"  "'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0 subtable" 
-BeginChars: 1183 1040
+BeginChars: 1183 1041
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -89059,6 +89059,21 @@ SplineSet
  821.585 720.97 821.585 720.97 789.766 749.09 c 4,74,75
  757.623 777.58 757.623 777.58 701.335 777.58 c 6,76,-1
  525.585 777.58 l 5,67,-1
+EndSplineSet
+EndChar
+
+StartChar: macron
+Encoding: 175 175 1040
+Width: 682
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+139.49 599.348 m 5,0,-1
+ 547.23 599.348 l 5,1,-1
+ 547.23 497.229 l 5,2,-1
+ 139.49 497.229 l 5,3,-1
+ 139.49 599.348 l 5,0,-1
 EndSplineSet
 EndChar
 EndChars
