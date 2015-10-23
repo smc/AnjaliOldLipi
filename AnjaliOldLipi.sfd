@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144321
-ModificationTime: 1445602015
+ModificationTime: 1445602205
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -102,7 +102,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 180 9 8
+WinInfo: 189 9 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -115,7 +115,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 289792 144896 96597 543744 -1048576 96597 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "dotreph"  "'abvm' Above Base Mark in Malay+AQEA-lam/Malay+AQEA-lam2 lookup 0 subtable" 
-BeginChars: 1183 1100
+BeginChars: 1183 1104
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -91381,6 +91381,94 @@ SplineSet
  427 942 427 942 338 849 c 0,39,40
  255 762 255 762 234 630 c 1,41,-1
  916 630 l 1,35,36
+EndSplineSet
+EndChar
+
+StartChar: igrave
+Encoding: 236 236 1100
+Width: 467
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+204 1157 m 5,0,-1
+ 14 1438 l 5,1,-1
+ 211 1438 l 5,2,-1
+ 370 1157 l 5,3,-1
+ 204 1157 l 5,0,-1
+305 1062 m 1,4,-1
+ 305 -1 l 1,5,-1
+ 167 -1 l 1,6,-1
+ 167 1062 l 1,7,-1
+ 305 1062 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: iacute
+Encoding: 237 237 1101
+Width: 467
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+316 1159 m 5,0,-1
+ 506 1440 l 5,1,-1
+ 309 1440 l 5,2,-1
+ 150 1159 l 5,3,-1
+ 316 1159 l 5,0,-1
+305 1062 m 1,4,-1
+ 305 -1 l 1,5,-1
+ 167 -1 l 1,6,-1
+ 167 1062 l 1,7,-1
+ 305 1062 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: icircumflex
+Encoding: 238 238 1102
+Width: 467
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+280.86 1558.62 m 5,0,-1
+ 475.42 1184.22 l 5,1,-1
+ 357.34 1143.26 l 5,2,-1
+ 232.22 1410.34 l 5,3,-1
+ 106.58 1143.9 l 5,4,-1
+ -7.78027 1183.58 l 5,5,-1
+ 182.3 1558.62 l 5,6,-1
+ 280.86 1558.62 l 5,0,-1
+305 1062 m 1,7,-1
+ 305 -1 l 1,8,-1
+ 167 -1 l 1,9,-1
+ 167 1062 l 1,10,-1
+ 305 1062 l 1,7,-1
+EndSplineSet
+EndChar
+
+StartChar: idieresis
+Encoding: 239 239 1103
+Width: 683
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+651 1186 m 1,0,-1
+ 447 1186 l 1,1,-1
+ 447 1391 l 1,2,-1
+ 651 1391 l 1,3,-1
+ 651 1186 l 1,0,-1
+240 1186 m 1,4,-1
+ 36 1186 l 1,5,-1
+ 36 1391 l 1,6,-1
+ 240 1391 l 1,7,-1
+ 240 1186 l 1,4,-1
+418 1062 m 1,8,-1
+ 418 -1 l 1,9,-1
+ 280 -1 l 1,10,-1
+ 280 1062 l 1,11,-1
+ 418 1062 l 1,8,-1
 EndSplineSet
 EndChar
 EndChars
