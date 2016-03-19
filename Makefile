@@ -3,6 +3,7 @@
 fontpath=/usr/share/fonts/truetype/malayalam
 fonts=AnjaliOldLipi
 feature=features/features.fea
+kernfeature=features/kerning.fea
 PY=python2.7
 buildscript=tools/build.py
 default: compile
@@ -11,7 +12,7 @@ all: compile webfonts
 compile:
 	@for font in `echo ${fonts}`;do \
 		echo "Generating $$font.ttf";\
-		$(PY) $(buildscript) $$font.sfd $(feature);\
+		$(PY) $(buildscript) $$font.sfd $(feature) $(kernfeature);\
 	done;
 
 webfonts:compile
@@ -33,3 +34,7 @@ test: compile
 		echo "Testing font $${font}";\
 		hb-view $${font}.ttf --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
+
+clean:
+	@echo "Removing ttf files";
+	@rm -f *.ttf;
