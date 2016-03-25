@@ -3,16 +3,15 @@
 fontpath=/usr/share/fonts/truetype/malayalam
 fonts=AnjaliOldLipi
 feature=features/features.fea
-kernfeature=features/kerning.fea
 PY=python2.7
 buildscript=tools/build.py
 default: compile
 all: compile webfonts
 
-compile:
+compile: clean
 	@for font in `echo ${fonts}`;do \
 		echo "Generating $$font.ttf";\
-		$(PY) $(buildscript) $$font.sfd $(feature) $(kernfeature);\
+		$(PY) $(buildscript) $$font.sfd $(feature) ;\
 	done;
 
 webfonts:compile
@@ -37,4 +36,4 @@ test: compile
 
 clean:
 	@echo "Removing ttf files";
-	@rm -f *.ttf;
+	@rm -f *.ttf *.woff;
