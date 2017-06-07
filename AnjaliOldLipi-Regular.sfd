@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144321
-ModificationTime: 1496766053
+ModificationTime: 1496815261
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ OS2SupXOff: 0
 OS2SupYOff: 980
 OS2StrikeYSize: 102
 OS2StrikeYPos: 512
-OS2Vendor: 'PfEd'
+OS2Vendor: 'SMC '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80800001.00002000.00000000.00000000
 Lookup: 2 0 0 "'ccmp' Glyph Composition/Decomposition lookup 13" { "'ccmp' Glyph Composition/Decomposition lookup 13-1"  } ['ccmp' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
