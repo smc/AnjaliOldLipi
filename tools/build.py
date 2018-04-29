@@ -93,6 +93,9 @@ def fixXAvgCharWidth(font):
 
 
 def opentype(infont, type, feature, version):
+    if not os.path.exists("build"):
+        os.mkdir("build")
+
     font = fontforge.open(infont)
     if args.type == 'otf':
         outfont = infont.replace(".sfd", ".otf")
@@ -100,6 +103,7 @@ def opentype(infont, type, feature, version):
     else:
         outfont = infont.replace(".sfd", ".ttf")
         flags = ("opentype", "round", "omit-instructions", "dummy-dsig")
+    outfont = os.path.join("build", outfont)
     print("Generating %s => %s" % (infont, outfont))
     tmpfont = mkstemp(suffix=os.path.basename(outfont))[1]
 
