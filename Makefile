@@ -36,7 +36,7 @@ install: otf
 		install -D -m 0644 build/$${font}.otf ${DESTDIR}/${fontpath}/$${font}.otf;\
 	done;
 
-ifeq ($(shell ls -l *.ttf 2>/dev/null | wc -l),0)
+ifeq ($(shell ls -l build/*.ttf 2>/dev/null | wc -l),0)
 test: ttf run-test
 else
 test: run-test
