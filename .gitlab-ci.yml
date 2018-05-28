@@ -12,7 +12,7 @@ stages:
 build-branch:
   stage: build
   script:
-    - make otf ttf webfonts
+    - make ttf webfonts
   artifacts:
     paths:
     - build/
@@ -22,7 +22,7 @@ build-branch:
 build-tag:
   stage: build
   script:
-    - make otf ttf webfonts
+    - make ttf webfonts
     - sh tools/artifacts.sh
   artifacts:
     paths:

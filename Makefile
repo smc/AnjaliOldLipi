@@ -7,17 +7,12 @@ PY=python2.7
 buildscript=tools/build.py
 outdir=build
 version=7.0
-default: otf
-all: clean otf ttf webfonts test
+default: ttf
+all: clean ttf webfonts test
 .PHONY: ttf
 ttf:
 	@for font in `echo ${fonts}`;do \
 		$(PY) $(buildscript) -t ttf -i $$font.sfd -f $(feature) -v $(version) -o $(outdir);\
-	done;
-
-otf:
-	@for font in `echo ${fonts}`;do \
-		$(PY) $(buildscript) -t otf -i $$font.sfd -f $(feature) -v $(version) -o $(outdir);\
 	done;
 
 webfonts:woff woff2
@@ -32,9 +27,9 @@ woff2: ttf
 		$(PY) $(buildscript) -t woff2 -i $(outdir)/$$font.ttf;\
 	done;
 
-install: otf
+install: ttf
 	@for font in `echo ${fonts}`;do \
-		install -D -m 0644 $(outdir)/$${font}.otf ${DESTDIR}/${fontpath}/$${font}.otf;\
+		install -D -m 0644 $(outdir)/$${font}.ttf ${DESTDIR}/${fontpath}/$${font}.ttf;\
 	done;
 
 ifeq ($(shell ls -l $(outdir)/*.ttf 2>/dev/null | wc -l),0)
