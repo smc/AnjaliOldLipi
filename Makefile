@@ -3,7 +3,7 @@
 fontpath=/usr/share/fonts/truetype/malayalam
 fonts=AnjaliOldLipi-Regular
 feature=features/features.fea
-PY=python2.7
+PY=python3
 buildscript=tools/build.py
 outdir=build
 version=7.0
