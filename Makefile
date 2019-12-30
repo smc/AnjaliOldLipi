@@ -6,7 +6,7 @@ feature=features/features.fea
 PY=python3
 buildscript=tools/build.py
 outdir=build
-version=7.0
+version=7.1
 default: ttf
 all: clean ttf webfonts test
 .PHONY: ttf
